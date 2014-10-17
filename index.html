@@ -1,74 +1,135 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Guguda.github.io : webpage test">
+<head>
+  <title>ARaynorDesign Template</title>
+  <meta name="description" content="free website template" />
+  <meta name="keywords" content="enter your keywords here" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+  <script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
+  <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+  </script> 
+</head>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+<body>
+  <div id="main">
 
-    <title>Guguda.github.io</title>
-  </head>
-
-  <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/guguda">View on GitHub</a>
-
-          <h1 id="project_title">Guguda.github.io</h1>
-          <h2 id="project_tagline">webpage test</h2>
-
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
+	<div id="menubar">
+	  <div id="welcome">
+	    <h1><a href="#">Welcome To Night Sky</a></h1>
+	  </div><!--close welcome-->
+      <div id="menu_items">
+	    <ul id="menu">
+          <li class="current"><a href="index.html">Home</a></li>
+          <li><a href="ourwork.html">Our Work</a></li>
+          <li><a href="testimonials.html">Testimonials</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div><!--close menu-->
+    </div><!--close menubar-->	
     
+	<div id="site_content">		
 
-  </body>
+	  <div id="banner_image">
+	    <div id="slider-wrapper">        
+          <div id="slider" class="nivoSlider">
+            <img src="images/home_1.jpg" alt="" />
+            <img src="images/home_2.jpg" alt="" />
+		  </div><!--close slider-->
+		</div><!--close slider_wrapper-->
+	  </div><!--close banner_image-->	
+
+	  <div class="sidebar_container">       
+		<div class="sidebar">
+          <div class="sidebar_item">
+            <h2>New Website</h2>
+            <p>Welcome to our new website. Please have a look around, any feedback is much appreciated.</p>
+          </div><!--close sidebar_item--> 
+        </div><!--close sidebar-->     		
+		<div class="sidebar">
+          <div class="sidebar_item">
+            <h2>Latest Update</h2>
+            <h3>February 2013</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque cursus tempor enim.</p>         
+		  </div><!--close sidebar_item--> 
+        </div><!--close sidebar-->
+		<div class="sidebar">
+          <div class="sidebar_item">
+            <h3>January 2013</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque cursus tempor enim.</p>         
+		  </div><!--close sidebar_item--> 
+        </div><!--close sidebar-->  		
+      </div><!--close sidebar_container-->		  
+	 
+	  <div id="content">
+        <div class="content_item">
+		  <h1>Welcome To Your Website</h1> 
+	      <p>This standards compliant, simple, fixed width website template is released as an 'open source' design (under the Creative Commons Attribution 3.0 Licence), which means that you are free to download and use it for anything you want (including modifying and amending it). If you wish to remove the &lsquo;ARaynorDesign&rsquo; link in the footer of the template, all I ask is for a donation of &pound;20.00 GBP.</p>	  
+		  <div class="content_container">
+		    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque cursus tempor enim. Aliquam facilisis neque non nunc posuere eget volutpat metus tincidunt.</p>
+		  	<div class="button_small">
+		      <a href="#">Read more</a>
+		    </div><!--close button_small-->
+		  </div><!--close content_container-->
+          <div class="content_container">
+		    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque cursus tempor enim. Aliquam facilisis neque non nunc posuere eget volutpat metus tincidunt.</p>          
+		  	<div class="button_small">
+		      <a href="#">Read more</a>
+		    </div><!--close button_small-->		  
+		  </div><!--close content_container-->		
+		  <div class="content_container">
+		    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque cursus tempor enim. Aliquam facilisis neque non nunc posuere eget volutpat metus tincidunt.</p>
+		  	<div class="button_small">
+		      <a href="#">Read more</a>
+		    </div><!--close button_small-->
+		  </div><!--close content_container-->
+          <div class="content_container">
+		    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque cursus tempor enim. Aliquam facilisis neque non nunc posuere eget volutpat metus tincidunt.</p>          
+		  	<div class="button_small">
+		      <a href="#">Read more</a>
+		    </div><!--close button_small-->		  
+		  </div><!--close content_container-->			  
+		</div><!--close content_item-->
+      </div><!--close content-->   
+	
+	  <div id="content_blue">
+	    <div class="content_blue_container_box">
+		  <h4>Latest Blog Post</h4>
+	      <p> Phasellus laoreet feugiat risus. Ut tincidunt, ante vel fermentum iaculis.</p>
+		  <div class="readmore">
+		    <a href="#">Read more</a>
+		  </div><!--close readmore-->
+	    </div><!--close content_blue_container_box-->
+        <div class="content_blue_container_box">
+         <h4>Latest News</h4>
+	      <p> Phasellus laoreet feugiat risus. Ut tincidunt, ante vel fermentum iaculis.</p>
+	      <div class="readmore">
+		    <a href="#">Read more</a>
+		  </div><!--close readmore-->
+	    </div><!--close content_blue_container_box-->
+        <div class="content_blue_container_boxl">
+		  <h4>Latest Projects</h4>
+	      <p> Phasellus laoreet feugiat risus. Ut tincidunt, ante vel fermentum iaculis.</p>
+	      <div class="readmore">
+		    <a href="#">Read more</a>
+		  </div><!--close readmore-->	  
+	    </div><!--close content_blue_container_box1-->      
+	    <br style="clear:both"/>
+      </div><!--close content_blue--> 	
+	</div><!--close site_content--> 
+  
+  </div><!--close main-->
+  
+  <div id="footer">
+	  <a href="http://validator.w3.org/check?uri=referer">Valid XHTML</a> | <a href="http://fotogrph.com/">Images</a> | <a href="http://www.heartinternet.co.uk/web-hosting/">Web Hosting</a> | website template by <a href="http://www.araynordesign.co.uk">ARaynorDesign</a>
+  </div><!--close footer-->  
+  
+</body>
 </html>
