@@ -72,7 +72,7 @@ p a:hover {
 	color:#c0bfbf;
 	font-family: 'forumregular';
 	font-size:12px;
-	letter-spacing:2px;
+	/* letter-spacing:2px; */
 	text-decoration:none;
 	text-transform:uppercase;
 }
