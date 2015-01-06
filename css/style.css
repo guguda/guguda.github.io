@@ -46,7 +46,7 @@ p a:hover {
 }
 .header div a#logo {
 	float:left;
-	margin:13px 0 0;
+	margin:2px 0 0;
 }
 .header div ul {
 	float: right;
@@ -72,7 +72,7 @@ p a:hover {
 	color:#c0bfbf;
 	font-family: 'forumregular';
 	font-size:12px;
-	/* letter-spacing:2px; */
+	letter-spacing:2px;
 	text-decoration:none;
 	text-transform:uppercase;
 }
@@ -252,6 +252,8 @@ p a:hover {
 	margin:0;
 	padding:26px 0 0;
 }
+
+
 .body .about ul li {
 	float:left;
 	margin:0 0 0 27px;
@@ -277,6 +279,7 @@ p a:hover {
 	text-transform:capitalize;
 }
 .body .about ul li p {
+    font-size:12px;
 	margin:24px 0 0;
 }
 .body .about ul li p a {
