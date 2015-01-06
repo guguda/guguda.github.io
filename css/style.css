@@ -46,7 +46,7 @@ p a:hover {
 }
 .header div a#logo {
 	float:left;
-	margin:0 0 40px 0;
+	margin:0 0 0 0;
 }
 .header div ul {
 	float: right;
