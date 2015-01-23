@@ -44,9 +44,12 @@ p a:hover {
 	margin:0 auto;
 	width:960px;
 }
+
+
 .header div a#logo {
     float:left;
 	margin:0 0 10px;
+	text-decoration: none;
 }
 .header div ul {
 	float: right;
